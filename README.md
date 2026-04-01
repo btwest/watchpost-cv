@@ -4,7 +4,6 @@ A modular, config-driven computer vision pipeline for persistent object detectio
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/model-YOLOv8n-purple)](https://github.com/ultralytics/ultralytics)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
