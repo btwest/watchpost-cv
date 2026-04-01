@@ -1,0 +1,764 @@
+[
+  {
+    "event_type": "CROWD_THRESHOLD",
+    "track_id": null,
+    "class_name": null,
+    "zone_name": null,
+    "frame_idx": 0,
+    "timestamp_sec": 0.0,
+    "metadata": {
+      "object_count": 15,
+      "threshold": 6
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 2,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 66,
+    "timestamp_sec": 2.202,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1637.0,
+        438.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 19,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 82,
+    "timestamp_sec": 2.736,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1630.5,
+        459.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 21,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 152,
+    "timestamp_sec": 5.072,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1636.0,
+        847.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 22,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 226,
+    "timestamp_sec": 7.541,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1637.5,
+        904.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 18,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 308,
+    "timestamp_sec": 10.277,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1627.0,
+        511.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 26,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 320,
+    "timestamp_sec": 10.677,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1633.5,
+        865.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 18,
+    "class_name": "person",
+    "zone_name": "north_crosswalk",
+    "frame_idx": 436,
+    "timestamp_sec": 14.548,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1370.5,
+        310.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 20,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 460,
+    "timestamp_sec": 15.349,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1627.0,
+        473.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 3,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 598,
+    "timestamp_sec": 19.953,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1629.0,
+        459.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 38,
+    "class_name": "person",
+    "zone_name": "north_crosswalk",
+    "frame_idx": 606,
+    "timestamp_sec": 20.22,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1270.5,
+        314.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 59,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 876,
+    "timestamp_sec": 29.229,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1645.5,
+        936.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 74,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 954,
+    "timestamp_sec": 31.832,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1632.5,
+        931.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 69,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1202,
+    "timestamp_sec": 40.107,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1629.5,
+        529.0
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 85,
+    "class_name": "car",
+    "zone_name": "intersection",
+    "frame_idx": 1304,
+    "timestamp_sec": 43.51,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1520.5,
+        890.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 85,
+    "class_name": "car",
+    "zone_name": "south_entry",
+    "frame_idx": 1314,
+    "timestamp_sec": 43.844,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1636.0,
+        948.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 118,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1370,
+    "timestamp_sec": 45.712,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1628.0,
+        757.0
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 106,
+    "class_name": "person",
+    "zone_name": "intersection",
+    "frame_idx": 1435,
+    "timestamp_sec": 47.881,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1188.0,
+        340.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 106,
+    "class_name": "person",
+    "zone_name": "north_crosswalk",
+    "frame_idx": 1476,
+    "timestamp_sec": 49.249,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1107.5,
+        314.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 105,
+    "class_name": "person",
+    "zone_name": "south_entry",
+    "frame_idx": 1484,
+    "timestamp_sec": 49.516,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1201.5,
+        938.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 131,
+    "class_name": "person",
+    "zone_name": "south_entry",
+    "frame_idx": 1572,
+    "timestamp_sec": 52.452,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1021.5,
+        939.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 137,
+    "class_name": "person",
+    "zone_name": "south_entry",
+    "frame_idx": 1586,
+    "timestamp_sec": 52.92,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1128.5,
+        938.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 150,
+    "class_name": "truck",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1836,
+    "timestamp_sec": 61.261,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1627.5,
+        692.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 127,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1888,
+    "timestamp_sec": 62.996,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1639.0,
+        473.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 149,
+    "class_name": "truck",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1910,
+    "timestamp_sec": 63.73,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1666.0,
+        717.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 182,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 1930,
+    "timestamp_sec": 64.398,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1625.0,
+        348.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 202,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2092,
+    "timestamp_sec": 69.803,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1628.5,
+        358.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 194,
+    "class_name": "bus",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2106,
+    "timestamp_sec": 70.27,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1626.0,
+        693.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 228,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2206,
+    "timestamp_sec": 73.607,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1618.5,
+        731.5
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 202,
+    "class_name": "car",
+    "zone_name": "intersection",
+    "frame_idx": 2300,
+    "timestamp_sec": 76.743,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1285.5,
+        445.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 236,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2358,
+    "timestamp_sec": 78.679,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1638.0,
+        439.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 242,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2382,
+    "timestamp_sec": 79.479,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1636.5,
+        935.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 235,
+    "class_name": "person",
+    "zone_name": "north_crosswalk",
+    "frame_idx": 2386,
+    "timestamp_sec": 79.613,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1178.5,
+        316.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 263,
+    "class_name": "person",
+    "zone_name": "north_crosswalk",
+    "frame_idx": 2472,
+    "timestamp_sec": 82.482,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1180.0,
+        317.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 258,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2496,
+    "timestamp_sec": 83.283,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1658.5,
+        933.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 232,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2512,
+    "timestamp_sec": 83.817,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1625.5,
+        504.5
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 225,
+    "class_name": "car",
+    "zone_name": "intersection",
+    "frame_idx": 2544,
+    "timestamp_sec": 84.885,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1079.0,
+        799.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 272,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2550,
+    "timestamp_sec": 85.085,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1624.5,
+        758.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 281,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2654,
+    "timestamp_sec": 88.555,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1623.5,
+        746.5
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 275,
+    "class_name": "person",
+    "zone_name": "intersection",
+    "frame_idx": 2727,
+    "timestamp_sec": 90.991,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1361.0,
+        369.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 295,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2734,
+    "timestamp_sec": 91.224,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1625.5,
+        766.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 327,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2736,
+    "timestamp_sec": 91.291,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1621.5,
+        548.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 355,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2894,
+    "timestamp_sec": 96.563,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1626.0,
+        763.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 369,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 2966,
+    "timestamp_sec": 98.966,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1606.5,
+        730.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 377,
+    "class_name": "person",
+    "zone_name": "south_entry",
+    "frame_idx": 2982,
+    "timestamp_sec": 99.499,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        976.5,
+        939.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 337,
+    "class_name": "person",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 3014,
+    "timestamp_sec": 100.567,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1627.0,
+        498.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 401,
+    "class_name": "motorcycle",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 3032,
+    "timestamp_sec": 101.168,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1615.0,
+        737.0
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 225,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 3142,
+    "timestamp_sec": 104.838,
+    "metadata": {
+      "direction": "AB",
+      "centroid": [
+        1638.0,
+        473.0
+      ]
+    }
+  },
+  {
+    "event_type": "LOITERING",
+    "track_id": 377,
+    "class_name": "person",
+    "zone_name": "intersection",
+    "frame_idx": 3190,
+    "timestamp_sec": 106.44,
+    "metadata": {
+      "dwell_seconds": 6.97,
+      "centroid": [
+        1092.0,
+        877.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 372,
+    "class_name": "car",
+    "zone_name": "south_entry",
+    "frame_idx": 3232,
+    "timestamp_sec": 107.841,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1610.0,
+        940.5
+      ]
+    }
+  },
+  {
+    "event_type": "ZONE_CROSSING",
+    "track_id": 423,
+    "class_name": "car",
+    "zone_name": "east_crosswalk",
+    "frame_idx": 3304,
+    "timestamp_sec": 110.243,
+    "metadata": {
+      "direction": "BA",
+      "centroid": [
+        1619.0,
+        768.0
+      ]
+    }
+  }
+]

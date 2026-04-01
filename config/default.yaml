@@ -1,0 +1,72 @@
+source:
+  input_path: "assets/sample_scene.mp4"
+  loop_video: false
+
+model:
+  weights_path: "yolov8n.pt"
+  confidence_threshold: 0.35
+  iou_threshold: 0.5
+  inference_imgsz: 1280   # YOLO internal resize — 1280 balances speed vs small-object detection at 2720x1530
+  target_classes:
+    - person
+    - car
+    - truck
+    - motorcycle
+    - bus
+
+tracker:
+  track_buffer: 30               # frames before a lost track is dropped
+  min_box_area: 800              # px² — raised for high-res 2720x1530 source
+  detect_every_n_frames: 2       # run YOLO every N frames; tracker interpolates between
+
+analytics:
+  loitering:
+    enabled: true
+    threshold_seconds: 7.0
+    zones:
+      # Core intersection box — flags vehicles/people that stall in the junction
+      - name: "intersection"
+        polygon: [[900, 315], [1630, 315], [1630, 940], [900, 940]]
+      # Kiosk/sidewalk area top-centre — flags pedestrian lingering near the stand
+      - name: "kiosk_area"
+        polygon: [[880, 10], [1510, 10], [1510, 315], [880, 315]]
+
+  zone_crossing:
+    enabled: true
+    lines:
+      # North crosswalk — horizontal stripes at top of intersection
+      - name: "north_crosswalk"
+        points: [[900, 315], [1630, 315]]
+        direction: "any"
+      # East crosswalk — right edge of intersection, catches pedestrians
+      - name: "east_crosswalk"
+        points: [[1630, 315], [1630, 940]]
+        direction: "any"
+      # South entry — bottom of intersection, inbound vehicle detection
+      - name: "south_entry"
+        points: [[900, 940], [1630, 940]]
+        direction: "any"
+
+  crowd_threshold:
+    enabled: true
+    max_objects: 6       # intersection + kiosk area together; tune down for sensitivity
+    hysteresis_band: 2
+
+output:
+  output_dir: "output"
+  save_video: true
+  video_codec: "mp4v"
+  save_events: true
+  display_live: true
+
+display:
+  draw_tracks: true
+  draw_zones: true
+  draw_alerts: true
+  show_hud: true
+  class_colors:
+    person:     [0, 255, 0]
+    car:        [255, 128, 0]
+    truck:      [0, 128, 255]
+    motorcycle: [255, 0, 255]
+    bus:        [0, 255, 255]
