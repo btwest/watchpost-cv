@@ -232,16 +232,3 @@ Running on CPU (AMD/Intel). GPU inference with CUDA would push well past real-ti
 | Numerical             | [NumPy](https://numpy.org/)                                          |
 
 ---
-
-## Part of CV Suite App
-
-This pipeline is the centerpiece of a broader computer vision learning suite covering:
-
-- Classical image processing (edge detection, thresholding, contours)
-- Color-based object detection
-- Face anonymization with MediaPipe
-- Image classification with scikit-learn
-- OCR-based text detection with EasyOCR
-- YOLOv3 license plate detection
-
-[View full suite →](../README.md)
